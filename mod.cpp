@@ -30,6 +30,12 @@ int main(int argc, char* argv[])
 
     for (auto &p : fs::directory_iterator(to)) {
         string filename = p.path().filename().string();
+
+        if (filename.size() <= 2 || filename[1] != '.') {
+            cerr << "Unexpected filename format for filename: " << filename << endl;
+            cerr << "(Expected filename to be longer than 2 characters, and expected a '.' as the second character)" << endl;
+            exit(1);
+        }
         
         auto ep = problems.emplace(filename[0]);
         if (ep.second) {
@@ -45,8 +51,9 @@ int main(int argc, char* argv[])
             }
         }
 
-        if (seconddot == filename.size()) {
+        if (seconddot == filename.size() || seconddot <= 1) {
             cerr << "Unexpected filename format for filename: " << filename << endl;
+            cerr << "(Expected a second '.' to appear in the filename after the second character)" << endl;
             exit(1);
         }
 
