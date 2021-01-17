@@ -37,8 +37,8 @@ Codeforces-EducationalCodeforcesRound102RatedforDiv.2
 
 After:
 ```
-$ tree E102
-E102
+$ tree Edu102
+Edu102
 ├── A
 │   ├── A.ans1
 │   ├── A.cpp
