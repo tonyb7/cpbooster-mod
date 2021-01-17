@@ -19,3 +19,38 @@ Ex:
 ./mod Codeforces-EducationalCodeforcesRound102RatedforDiv.2 Edu102
 ```
 
+Before:
+```
+$ tree Codeforces-EducationalCodeforcesRound102RatedforDiv.2
+Codeforces-EducationalCodeforcesRound102RatedforDiv.2
+├── A.ReplacingElements.ans1
+├── A.ReplacingElements.cpp
+├── A.ReplacingElements.in1
+├── B.StringLCM.ans1
+├── B.StringLCM.cpp
+├── B.StringLCM.in1
+├── C.NoMoreInversions.ans1
+├── C.NoMoreInversions.cpp
+├── C.NoMoreInversions.in1
+...
+```
+
+After:
+```
+$ tree E102
+E102
+├── A
+│   ├── A.ans1
+│   ├── A.cpp
+│   └── A.in1
+├── B
+│   ├── B.ans1
+│   ├── B.cpp
+│   └── B.in1
+├── C
+│   ├── C.ans1
+│   ├── C.cpp
+│   └── C.in1
+...
+```
+
