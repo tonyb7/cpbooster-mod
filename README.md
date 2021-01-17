@@ -11,8 +11,8 @@ This program does the following:
 Usage:
 1. Compile with `make`
 2. Move executable to the folder where you store contests
-3. Retrieve the contest via [cpbooster](https://github.com/searleser97/cpbooster) and [competitive-companion](https://github.com/jmerle/competitive-companion),
-4. Run the executable, providing the current folder name as the first argument, and the desired folder name as the second argument.
+3. Retrieve the contest via [cpbooster](https://github.com/searleser97/cpbooster) and [competitive-companion](https://github.com/jmerle/competitive-companion)
+4. Run the executable, providing the current folder name as the first argument, and the desired folder name as the second argument
 
 Ex:
 ```
